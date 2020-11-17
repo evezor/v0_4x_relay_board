@@ -15,6 +15,9 @@ can.setfilter(0, CAN.LIST16, 0, (123, 124, 125, 126))
 #Setup Pins
 hbt_led = Pin("D13", Pin.OUT)
 func_butt = Pin("D5", Pin.IN, Pin.PULL_UP) 
+can_wakeup = Pin("D6", Pin.OUT)
+can_wakeup.value(0)
+
 
 RELAY_1 = Pin("E1", Pin.OUT)
 RELAY_2 = Pin("E2", Pin.OUT)
@@ -96,6 +99,7 @@ while True:
     if not (func_butt.value()):
         print("function button")
         send()
+        relay_chase()
         utime.sleep_ms(200)
     
     if(can.any(0)):
