@@ -4,20 +4,17 @@
 An edge board containing qty(4) 10 amp relays and qty(4) tactile buttons
 
 
-![sm]()
+![sm](https://github.com/evezor/v0_4x_relay_board/blob/master/pics/sm.PNG)
 
-![sm2]()
+![front](https://github.com/evezor/v0_4x_relay_board/blob/master/pics/front.PNG)
 
-![front]()
+![back](https://github.com/evezor/v0_4x_relay_board/blob/master/pics/back.PNG)
 
-![back]()
+![copper](https://github.com/evezor/v0_4x_relay_board/blob/master/pics/copper.PNG)
 
-![copper]()
+![sch](https://github.com/evezor/v0_4x_relay_board/blob/master/cad_files/RELAY_4_UP.svg)
 
-![sch]()
-
-
-source files can be found here: 
+source files can be found here: https://github.com/evezor/v0_4x_relay_board
 
 This board uses the Evezor Stamp STMF405 MCU
 
